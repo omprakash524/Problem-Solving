@@ -1,0 +1,17 @@
+https://www.codingninjas.com/codestudio/problems/ninja-and-the-sorted-check_6581957?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_Arrayproblems
+Ninja And The Sorted Check
+
+bool isSortedArr(int n, vector<int> a){
+    for(int i=1; i<n; i++){
+        if(a[i] >= a[i-1]){
+
+        }else{
+            return false;
+        }
+    }return true;
+}
+
+
+int isSorted(int n, vector<int> a) {
+    return isSortedArr(n,a);
+}
